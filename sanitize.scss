@@ -258,10 +258,11 @@ textarea {
 	resize: $textarea-resize;
 }
 
-// specify the background color and drop shadow of text selections
+// specify the background color and drop shadow of text selections, and sets the font color to the inverse background color
 
 ::selection {
 	background-color: $selection-background-color; // required when declaring ::selection
+	color: invert($selection-background-color);
 	text-shadow: $selection-text-shadow;
 }
 
