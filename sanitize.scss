@@ -221,7 +221,7 @@ code,
 kbd,
 pre,
 samp {
-	font-family: $monospace-font-family;
+	font-family: $monospace-font-family, monospace;
 }
 
 // specify the list style of nav lists
